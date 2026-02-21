@@ -1,4 +1,4 @@
-# ⚡ Pulse — Interactive Analytics Dashboard UI
+# ⚡ Pulse — Interactive Analytics Dashboard
 
 A beautifully designed, fully responsive Flutter analytics dashboard with animated cards, interactive charts, and drag-to-reorder layout customization.
 
@@ -6,7 +6,16 @@ A beautifully designed, fully responsive Flutter analytics dashboard with animat
 
 ## 📱 Screenshots
 
-> Add your screenshots here after building the app
+### 🖥️ Desktop
+![Desktop Dashboard](https://raw.githubusercontent.com/HamzaMaqbool-786/Analytic-Dashboard/main/Screenshot%202026-02-21%20162139.png)
+
+### 📟 Tablet
+![Tablet Dashboard](https://raw.githubusercontent.com/HamzaMaqbool-786/Analytic-Dashboard/main/TABLET_DASHBOARD.png)
+
+### 📱 Mobile
+![Mobile Home](https://raw.githubusercontent.com/HamzaMaqbool-786/Analytic-Dashboard/main/WhatsApp%20Image%202026-02-21%20at%204.18.13%20PM.jpeg)
+
+![Mobile Expanded](https://raw.githubusercontent.com/HamzaMaqbool-786/Analytic-Dashboard/main/WhatsApp%20Image%202026-02-21%20at%204.18.14%20PM.jpeg)
 
 ---
 
@@ -53,11 +62,23 @@ A beautifully designed, fully responsive Flutter analytics dashboard with animat
 - **screens** — main dashboard screen that switches layout per device
 - **widgets** — all reusable UI components including cards, charts and navigation
 
+---
 
+## 🎨 Design System
+
+### Colors
+- **Background** — deep dark navy
+- **Surface** — slightly lighter dark for cards
+- **Primary** — teal green accent
+- **Secondary** — hot pink accent
+- **Tertiary** — soft purple accent
+- **Highlight** — warm yellow accent
 
 ### Typography
 - Font family — Space Grotesk
 - Multiple font weights used from regular to extra bold
+
+---
 
 
 
@@ -66,27 +87,6 @@ A beautifully designed, fully responsive Flutter analytics dashboard with animat
 The app uses a custom Responsive utility class that provides fluid sizing across all screen sizes. It automatically detects whether the user is on mobile, tablet or desktop and adjusts font sizes, spacing, chart heights, card heights and layout columns accordingly.
 
 ---
-
-## 🐛 Bugs Fixed During Development
-
-- PageController multiple clients crash during rebuild
-- Bottom overflow error when expanding cards
-- Horizontal overflow in expanded card stats row on small screens
-- Content flashing briefly during card expand animation
-- Spacer widget crashing inside fixed height columns
-
----
-
-## 🗺️ Roadmap
-
-- Real API integration
-- Dark and light theme toggle
-- Push notifications
-- Export charts as PDF
-- User authentication screen
-- Persistent layout order saved to device storage
-- Unit and widget tests
-
 
 ---
 
